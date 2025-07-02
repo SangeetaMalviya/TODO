@@ -18,6 +18,9 @@ Clear focus indicators for navigation.
 Visible edit (pencil) and delete (trash) icons for each task.
 4.Persistence:
 Tasks are saved in localStorage and persist across app restarts.
+![image](https://github.com/user-attachments/assets/ecb6da9f-631a-48cc-9f45-bbeed7d0a2c4)
+
+
 
 
 Technical Stack
