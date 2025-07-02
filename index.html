@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TV To-Do</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+    <div id="app-container">
+        <h1>TV To-Do</h1>
+        <div id="filter-bar">
+            <span id="filter-all" class="filter selected">All</span> |
+            <span id="filter-active" class="filter">Active</span> |
+            <span id="filter-completed" class="filter">Completed</span>
+        </div>
+        <ul id="todo-list"></ul>
+        <button id="add-task-btn">+ Add Task</button>
+    </div>
+    <div id="modal" class="hidden">
+        <div id="modal-content">
+            <input type="text" id="task-input" placeholder="Enter new task..." maxlength="50" />
+            <button id="save-task-btn">Save</button>
+            <button id="cancel-task-btn">Cancel</button>
+        </div>
+    </div>
+    <div id="confirm-modal" class="hidden">
+        <div id="confirm-modal-content">
+            <p>Are you sure you want to delete this task?</p>
+            <button id="confirm-yes-btn">Yes</button>
+            <button id="confirm-no-btn">No</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
